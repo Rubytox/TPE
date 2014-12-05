@@ -13,7 +13,7 @@
 \date{Années 2014 -- 2015}
 
 \begin{document}
-
+\renewcommand{\chaptername}{Partie}
 \maketitle
 
 \newpage
@@ -30,10 +30,8 @@
 \renewcommand{\contentsname}{Sommaire} % Transforme "Table des matières" en "Sommaire"
 \tableofcontents
 
-\part*{Illusions et effets d'optique\markboth{Illusions et effets d'optique}{}}
-\addcontentsline{toc}{part}{Illusions et effets d'optique}
-\chapter*{Introduction\markboth{Introduction}{}}
-\addcontentsline{toc}{chapter}{Introduction}
+\part*{Illusions et effets d'optique}
+\chapter*{Introduction}
 	Nous sommes, tous les jours étonnés par diverses choses qui ne nous apparaissent pas telles qu’elles le sont véritablement. L’œil humain est en permanence trompé par la forme, la taille ou même la distance qui le sépare d’un objet. On appelle cela un effet d’optique.  
 	
 	Nous étions intrigués et nous nous demandions comment cela était possible, si c’était bien réel. Nous nous sommes alors posés les questions suivantes :
@@ -46,10 +44,8 @@
 	
 	Nous avons tenté de répondre à ces questions en réalisant une expérience : nous avons représenté une situation type où l’image perçue par le cerveau est différente de celle perçue dans la réalité. A travers notre expérience, nous allons ainsi étudier l’image et découvrir par la suite le fonctionnement de l’œil et du cerveau humain, et pourquoi l’interprétation de l’image par l’être humain est différente. Nous verrons dans un dernier temps divers autres types d’effet d’optique.
 	
-\chapter*{Les yeux, le cerveau et l'image\markboth{Les yeux, le cerveau et l'image}{}}
-\addcontentsline{toc}{chapter}{Les yeux, le cerveau et l'image}
-	\section*{Composition de l'oeil\markboth{Composition de l'oeil}{}}
-\addcontentsline{toc}{section}{Composition de l'oeil}
+\chapter{Les yeux, le cerveau et l'image}
+	\section{Composition de l'oeil}
 	L’œil est l’organe de la vision. Le système visuel nous permet de différencier les formes, les tailles, les couleurs ou encore les textures des objets mais également de les situer dans l’espace et de les différencier les uns par rapport aux autres. 
 	
 	Les déplacements ou encore la vitesse des objets peuvent également être détectés et cela aussi bien le jour que 
@@ -60,6 +56,8 @@ la nuit.
 	\caption{Schéma de l'oeil}
 	\label{Schéma de l'oeil}
 	\end{figure}
+	
+	\newpage
 	
 	L’œil d’un être humain adulte est une sphère qui mesure environ 2,5 cm de diamètre, et pèse environ 7 grammes. 
 	
@@ -99,10 +97,8 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	
 	\includegraphics[scale=0.8]{schema_oeil.jpg}
 \newpage
-	\section*{Fonctionnement de l'oeil\markboth{Fonctionnement de l'oeil}{}}
-\addcontentsline{toc}{section}{Fonctionnement de l'oeil}
-		\subsection*{Propagation de la lumière\markboth{Propagation de la lumière}{}}
-\addcontentsline{toc}{subsection}{Propagation de la lumière}
+	\section{Fonctionnement de l'oeil}
+		\subsection{Propagation de la lumière}
 		Dans un milieu transparent, homogène et isotrope (c’est-à-dire qui a les mêmes propriétés dans toutes les directions), la lumière se propage en un mouvement rectiligne et uniforme.
 		
 	Dans le cas où le milieu n’est pas homogène, par exemple lors d’une différence de température, la lumière est déviée : c'est le phénomène de réfraction. Lorsque la lumière traverse un milieu transparent, elle subit ce phénomène. C’est le cas par exemple de l’eau ou encore l'air. 
@@ -128,8 +124,7 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	 La dispersion est à l’origine des arc-en-ciel : la lumière passe à travers des gouttes d’eau, qui dispersent la lumière, et font apparaître le spectre de la lumière blanche. 
 
 \newpage
-		\subsection*{Formation d'une image\markboth{Formation d'une image}{}}
-\addcontentsline{toc}{subsection}{Formation d'une image}
+		\subsection{Formation d'une image}
 		L’œil est un organe, disposant d’une rétine qui tapisse son fond, dont le but est de former une image à partir de rayons de lumière puis de l’envoyer au cerveau afin qu’il la traite. En plus d’être capable de détecter la lumière, l’œil doit aussi pouvoir détecter sa direction. 
 		
 	Tout d’abord, nous allons nous intéresser à la formation d’une image dans un milieu quelconque.
@@ -152,8 +147,7 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	Dans le cas d’une loupe, l’objet est situé après le foyer objet, l’image est dans le bon sens, et se forme avant l’objet : c’est une image virtuelle.
 
 \newpage
-		\subsection*{L'oeil\markboth{L'oeil}{}}
-\addcontentsline{toc}{subsection}{L'oeil}
+		\subsection{L'oeil}
 		L’œil est composé d’un cristallin, qui peut être assimilé à une lentille convergente. Lorsque les rayons lumineux provenant d’un objet éclairé y pénètrent, ils convergent donc en un point. L’image formée à partir de l’objet est une image inversée.
 		
 		Lorsqu’un objet est éclairé, nous pouvons le voir. En effet, les rayons lumineux qui en proviennent passent à travers l’iris, et rentrent dans l’œil. Ils subissent une réfraction lorsqu’ils traversent l’humeur vitrée et aqueuse, et peuvent donc former l’image renversée sur la rétine.
@@ -164,21 +158,21 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 
 	L’œil est un organe pouvant posséder des défauts.
 
-	\subsubsection*{La myopie}
+	\subsubsection{La myopie}
 	L’œil est trop convergent, et les images se forment avant la rétine. Le positionnement d’une lentille divergente devant l’œil peut corriger ce problème.
 	\includegraphics{myopie.jpg}
 	
-	\subsubsection*{L'hypermétropie}
+	\subsubsection{L'hypermétropie}
 	C’est le contraire de la myopie, l’œil n’est pas assez convergent, et donc les images se forment après la rétine. Il faut cette fois-ci placer une lentille convergente devant l’œil.
 	
 	\includegraphics[scale=0.5]{hypermetropie.jpg}
 	
-	\subsubsection*{La presbytie}
+	\subsubsection{La presbytie}
 	C’est un défaut de l’œil qui apparaît en général chez les personnes âgées. En effet, le cristallin est « fatigué », il ne peut plus accommoder. De ce fait, les images de près se forment derrière la rétine. Il faut cette fois également porter des lunettes convergentes.
 	
 	\includegraphics[scale=0.7]{presbytie.png}
 	
-	\subsubsection*{L'astigmatisme}
+	\subsubsection{L'astigmatisme}
 	C’est un défaut de la composition de l’humeur aqueuse et/ou de l’humeur vitrée. Les rayons qui les traversent ne forment plus un point lumineux sur la rétine, mais une tache de dimension et de formes variées.
 	
 	\includegraphics[scale=0.5]{astigmatisme3.jpg}
@@ -199,8 +193,7 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	
 	Après avoir découvert le fonctionnement de l’œil, nous allons nous intéresser à celui du cerveau dans le cadre de la vue.
 
-	\section*{Fonctionnement du cerveau dans le cadre de la vue\markboth{Fonctionnement du cerveau dans le cadre de la vue}{}}
-\addcontentsline{toc}{section}{Fonctionnement du cerveau dans le cadre de la vue}
+	\section{Fonctionnement du cerveau dans le cadre de la vue}
 	Le cerveau est l’organe central du corps humain. C’est lui qui contrôle le fonctionnement des autres organes.Dans le cadre de la vue, il est capable de recevoir un message nerveux provenant de l’œil, plus précisément de la rétine, par le nerf optique, qui contient une image captée par l’œil, et de l’interpréter.
 	
 	C'est par le sens de la vue que nous percevons la lumière, les formes et les couleurs, que nous apprécions les détails des objets, leur distance et leur relief.
@@ -209,8 +202,7 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	
 	Comment une image est-elle transmise par l’œil au cerveau ? Comment celui-ci l’interprète ?
 
-		\subsection*{Transmission de l'image\markboth{Transmission de l'image}{}}
-\addcontentsline{toc}{subsection}{Transmission de l'image}
+		\subsection{Transmission de l'image}
 		Tout d'abord il faut savoir que  l'œil est mobile grâce à des muscles fixés dans l'orbite. C'est un système optique qui permet la formation d'une image réelle, et surtout  renversée par rapport à l'objet regardé.  
 	
 	L'intérieur des globes oculaires est rempli de différents milieux transparents jouant le rôle d'une lentille, qui permettent donc la formation d'une image au fond de l'œil. Il s'agit de l'humeur aqueuse, du cristallin et de l'humeur vitrée.
@@ -233,8 +225,7 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	
 	Ainsi, certaines substances hallucinogènes, en se fixant sur les récepteurs de ces neurotransmetteurs, modifient la perception visuelle.
 
-		\subsection*{Interprétation de l'image\markboth{Interprétation de l'image}{}}
-\addcontentsline{toc}{subsection}{Interprétation de l'image}
+		\subsection{Interprétation de l'image}
 		Différentes régions du cerveau sont impliquées dans le processus de la vision : le cortex visuel primaire mais aussi différentes aires cérébrales spécialisées.
 		
 	Après avoir franchi la zone de relais, la plupart des messages nerveux visuels arrivent dans une aire située à l'arrière du cortex occipital de chacun des deux hémisphères. Ces deux aires cérébrales forment le cortex visuel primaire. Chacune d'entre elles reçoit des informations provenant des deux yeux. Ainsi, toute lésion située dans cette zone provoque une cécité plus ou moins prononcée. Parallèlement, certaines informations visuelles arrivent directement dans différentes aires visuelles spécialisées dans le traitement de la couleur, des formes ou encore des mouvements.
@@ -249,20 +240,13 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	
 	Le cortex est divisé en plusieurs aires corticales spécifiques (V1, V2, V3, V4 et V5). Il n'est pas nécessaire d'expliquer la fonction de ces aires corticales car cela ne nous intéresse pas, or on peut ajouter que l'aire corticale V4 est chargée du traitement des formes et des couleurs.
 
-\chapter*{Comment le cerveau peut-il être trompé ?\markboth{Comment le cerveau peut-il être trompé ?}{}}
-\addcontentsline{toc}{chapter}{Comment le cerveau peut-il être trompé ?}
-	\section*{Présentation de notre illusion\markboth{Présentation de notre illusion}{}}
-\addcontentsline{toc}{section}{Présentation de notre illusion}
-	\section*{Explication de l'illusion : comment l'a-t-on construite et pourquoi est-ce une illusion ?\markboth{Explication de l'illusion}{}}
-\addcontentsline{toc}{section}{Explication de l'illusion}
-\chapter*{Autres exemples d'illusion\markboth{Autres exemples d'illusion}{}}
-\addcontentsline{toc}{chapter}{Autres exemples d'illusion}
-	\section*{Différence entre illusion et effet d'optique\markboth{Différence entre illusion et effet d'optique}{}}
-\addcontentsline{toc}{section}{Différence entre illusion et effet d'optique}
-	\section*{Mirages\markboth{Mirages}{}}
-\addcontentsline{toc}{section}{Mirages}
-	\section*{Stéréogrammes\markboth{Stéréogrammes}{}}
-\addcontentsline{toc}{section}{Stéréogrammes}
+\chapter{Comment le cerveau peut-il être trompé ?}
+	\section{Présentation de notre illusion}
+	\section{Explication de l'illusion : comment l'a-t-on construite et pourquoi est-ce une illusion ?}
+\chapter{Autres exemples d'illusion}
+	\section{Différence entre illusion et effet d'optique}
+	\section{Mirages}
+	\section{Stéréogrammes}
 	Les stéréogrammes sont des images en 3 dimensions où sont dissimulées des formes. Ils apparaissent sous forme d’une texture abstraite, mais avec un agencement particulier, qui permet de faire apparaître la forme recherchée.
 	
 	Il existe manières de les voir : il faut placer son visage le plus près possible de l’image. En effet, lorsqu’on regarde une image ou un objet, nos yeux sont focalisés sur un point situé derrière l’image. L’image reçue par chaque œil est différente, mais le cerveau les interprète comme si c’étaient les mêmes. Le cerveau est capable de reconstituer le relief caché dans le stéréogramme, mais seulement si on se focalise dessus. Se placer très près de l’image fait que les yeux ne peuvent plus faire le point, ils regardent alors le vide. Ensuite, il faut reculer doucement, toujours en gardant le même type de vision. 
