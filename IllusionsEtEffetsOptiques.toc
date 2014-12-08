@@ -1,0 +1,21 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Les yeux, le cerveau et l'image}{6}
+\contentsline {section}{\numberline {1.1}Composition de l'oeil}{6}
+\contentsline {section}{\numberline {1.2}Fonctionnement de l'oeil}{9}
+\contentsline {subsection}{\numberline {1.2.1}Propagation de la lumi\IeC {\`e}re}{9}
+\contentsline {subsection}{\numberline {1.2.2}Formation d'une image}{11}
+\contentsline {subsection}{\numberline {1.2.3}L'oeil}{13}
+\contentsline {subsubsection}{La myopie}{13}
+\contentsline {subsubsection}{L'hyperm\IeC {\'e}tropie}{14}
+\contentsline {subsubsection}{La presbytie}{14}
+\contentsline {subsubsection}{L'astigmatisme}{14}
+\contentsline {section}{\numberline {1.3}Fonctionnement du cerveau dans le cadre de la vue}{17}
+\contentsline {subsection}{\numberline {1.3.1}Transmission de l'image}{17}
+\contentsline {subsection}{\numberline {1.3.2}Interpr\IeC {\'e}tation de l'image}{19}
+\contentsline {chapter}{\numberline {2}Comment le cerveau peut-il \IeC {\^e}tre tromp\IeC {\'e} ?}{20}
+\contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation de notre illusion}{20}
+\contentsline {section}{\numberline {2.2}Explication de l'illusion : comment l'a-t-on construite et pourquoi est-ce une illusion ?}{20}
+\contentsline {chapter}{\numberline {3}Autres exemples d'illusion}{21}
+\contentsline {section}{\numberline {3.1}Diff\IeC {\'e}rence entre illusion et effet d'optique}{21}
+\contentsline {section}{\numberline {3.2}Mirages}{21}
+\contentsline {section}{\numberline {3.3}St\IeC {\'e}r\IeC {\'e}ogrammes}{21}
