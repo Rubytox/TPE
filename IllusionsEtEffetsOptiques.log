@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.2)  5 DEC 2014 15:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.2)  10 DEC 2014 16:04
 entering extended mode
 **IllusionsEtEffetsOptiques.tex
 (E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.tex
@@ -330,18 +330,18 @@ Package babel Info: Making ? an active character on input line 123.
 ("E:\Program Files\MiKTeX\tex\generic\babel\frenchb.cfg")))
 ("E:\Program Files\MiKTeX\tex\latex\carlisle\scalefnt.sty")
 (E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 ("C:\Documents and Settings\Rubytox\Application Data\MiKTeX\2.9\tex\context\bas
 e\supp-pdf.mkii"
@@ -358,13 +358,13 @@ e\supp-pdf.mkii"
 \makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks18
 )
-LaTeX Info: Redefining \degres on input line 15.
-LaTeX Info: Redefining \dots on input line 15.
-LaTeX Info: Redefining \up on input line 15.
+LaTeX Info: Redefining \degres on input line 16.
+LaTeX Info: Redefining \dots on input line 16.
+LaTeX Info: Redefining \up on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 17.
+(Font)              <14.4> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
+(Font)              <7> on input line 18.
  [1
 
 {C:/Documents and Settings/Rubytox/Local Settings/Application Data/MiKTeX/2.9/p
@@ -391,7 +391,7 @@ Partie 1.
 <oeil.jpg, id=27, 642.4pt x 421.575pt>
 File: oeil.jpg Graphic file (type jpg)
  <use oeil.jpg>
-Package pdftex.def Info: oeil.jpg used on input line 55.
+Package pdftex.def Info: oeil.jpg used on input line 56.
 (pdftex.def)             Requested size: 321.19922pt x 210.78697pt.
  [6
 
@@ -405,68 +405,68 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [7] <schema_oeil.jpg, id=39, 432.61626pt x 237.88875pt>
 File: schema_oeil.jpg Graphic file (type jpg)
  <use schema_oeil.jpg>
-Package pdftex.def Info: schema_oeil.jpg used on input line 98.
+Package pdftex.def Info: schema_oeil.jpg used on input line 101.
 (pdftex.def)             Requested size: 346.09348pt x 190.31123pt.
 
 [8 <E:/Documents/GIT.GITHUB/TPE/schema_oeil.jpg>]
 <refraction.jpg, id=45, 225.84375pt x 225.84375pt>
 File: refraction.jpg Graphic file (type jpg)
  <use refraction.jpg>
-Package pdftex.def Info: refraction.jpg used on input line 117.
-(pdftex.def)             Requested size: 203.25748pt x 203.25748pt.
+Package pdftex.def Info: refraction.jpg used on input line 125.
+(pdftex.def)             Requested size: 135.50728pt x 135.50728pt.
 
 [9 <E:/Documents/GIT.GITHUB/TPE/refraction.jpg>]
 <dispersion.jpg, id=53, 430.60875pt x 242.9075pt>
 File: dispersion.jpg Graphic file (type jpg)
  <use dispersion.jpg>
-Package pdftex.def Info: dispersion.jpg used on input line 122.
+Package pdftex.def Info: dispersion.jpg used on input line 135.
 (pdftex.def)             Requested size: 314.34177pt x 177.32098pt.
  [10 <E:/Documents/GIT.GITHUB/TPE/dispersion.jpg>]
 <lentille_convergente.jpg, id=57, 602.25pt x 451.6875pt>
 File: lentille_convergente.jpg Graphic file (type jpg)
 
 <use lentille_convergente.jpg>
-Package pdftex.def Info: lentille_convergente.jpg used on input line 134.
-(pdftex.def)             Requested size: 240.89572pt x 180.67178pt.
+Package pdftex.def Info: lentille_convergente.jpg used on input line 153.
+(pdftex.def)             Requested size: 180.67639pt x 135.5073pt.
 
 <formation_image.png, id=58, 322.20375pt x 114.4275pt>
 File: formation_image.png Graphic file (type png)
 
 <use formation_image.png>
-Package pdftex.def Info: formation_image.png used on input line 138.
-(pdftex.def)             Requested size: 322.20296pt x 114.42722pt.
+Package pdftex.def Info: formation_image.png used on input line 163.
+(pdftex.def)             Requested size: 289.98068pt x 102.9838pt.
  [11 <E:/Documents/GIT.GITHUB/TPE/lentille_convergente.jpg> <E:/Documents/GIT.G
 ITHUB/TPE/formation_image.png>] [12]
 <rayons_lumineux.jpg, id=68, 1535.7375pt x 681.40286pt>
 File: rayons_lumineux.jpg Graphic file (type jpg)
 
 <use rayons_lumineux.jpg>
-Package pdftex.def Info: rayons_lumineux.jpg used on input line 155.
+Package pdftex.def Info: rayons_lumineux.jpg used on input line 184.
 (pdftex.def)             Requested size: 307.14206pt x 136.27815pt.
  <myopie.jpg, id=69, 256.7994pt x 113.4639pt>
 File: myopie.jpg Graphic file (type jpg)
 
 <use myopie.jpg>
-Package pdftex.def Info: myopie.jpg used on input line 163.
+Package pdftex.def Info: myopie.jpg used on input line 192.
 (pdftex.def)             Requested size: 256.79877pt x 113.46361pt.
  [13 <E:/Documents/GIT.GITHUB/TPE/rayons_lumineux.jpg> <E:/Documents/GIT.GITHUB
 /TPE/myopie.jpg>]
 <hypermetropie.jpg, id=73, 501.875pt x 270.00874pt>
 File: hypermetropie.jpg Graphic file (type jpg)
  <use hypermetropie.jpg>
-Package pdftex.def Info: hypermetropie.jpg used on input line 168.
+Package pdftex.def Info: hypermetropie.jpg used on input line 197.
 (pdftex.def)             Requested size: 250.93687pt x 135.00403pt.
 
 <presbytie.png, id=74, 319.1925pt x 261.22594pt>
 File: presbytie.png Graphic file (type png)
  <use presbytie.png>
-Package pdftex.def Info: presbytie.png used on input line 173.
+Package pdftex.def Info: presbytie.png used on input line 202.
 (pdftex.def)             Requested size: 223.43321pt x 182.85689pt.
 
 <astigmatisme3.jpg, id=75, 501.875pt x 270.00874pt>
 File: astigmatisme3.jpg Graphic file (type jpg)
  <use astigmatisme3.jpg>
-Package pdftex.def Info: astigmatisme3.jpg used on input line 178.
+Package pdftex.def Info: astigmatisme3.jpg used on input line 207.
 (pdftex.def)             Requested size: 250.93687pt x 135.00403pt.
 
 [14 <E:/Documents/GIT.GITHUB/TPE/hypermetropie.jpg> <E:/Documents/GIT.GITHUB/TP
@@ -474,7 +474,7 @@ E/presbytie.png>] [15 <E:/Documents/GIT.GITHUB/TPE/astigmatisme3.jpg>]
 <retine.png, id=83, 590.205pt x 602.25pt>
 File: retine.png Graphic file (type png)
  <use retine.png>
-Package pdftex.def Info: retine.png used on input line 186.
+Package pdftex.def Info: retine.png used on input line 215.
 (pdftex.def)             Requested size: 295.10178pt x 301.12425pt.
  [16 <E:/Documents/GIT.GITHUB/TPE/retine.png>]
 
@@ -486,10 +486,10 @@ Package Fancyhdr Warning: \headheight is too small (14.49998pt):
 [17] <deux_yeux.jpg, id=90, 602.25pt x 401.5pt>
 File: deux_yeux.jpg Graphic file (type jpg)
  <use deux_yeux.jpg>
-Package pdftex.def Info: deux_yeux.jpg used on input line 222.
+Package pdftex.def Info: deux_yeux.jpg used on input line 251.
 (pdftex.def)             Requested size: 421.57211pt x 281.04808pt.
 
-Overfull \hbox (49.19693pt too wide) in paragraph at lines 222--223
+Overfull \hbox (49.19693pt too wide) in paragraph at lines 251--252
 [][] 
  []
 
@@ -501,43 +501,44 @@ Partie 2.
 Partie 3.
 [21
 
-] (E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.aux) ) 
+] [22] [23] (E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.aux) ) 
 Here is how much of TeX's memory you used:
- 2457 strings out of 493921
- 30732 string characters out of 3148826
+ 2464 strings out of 493921
+ 30869 string characters out of 3148826
  89455 words of memory out of 3000000
- 5722 multiletter control sequences out of 15000+200000
+ 5729 multiletter control sequences out of 15000+200000
  17768 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,10n,43p,741b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Documents a
-nd Settings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\Rubytox\Local Settin
-gs\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> 
-<C:\Documents and Settings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Documents and Settings\Rubyt
-ox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\eccc1200.pk> <C:\Documents and Settings\Rubytox\Local Settings\Application Da
-ta\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Documents and
- Settings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Rubytox\Local Settings
-\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C
-:\Documents and Settings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Documents and Settings\Rubytox
-\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-eccc1440.pk> <C:\Documents and Settings\Rubytox\Local Settings\Application Data
-\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Documents and S
-ettings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecrm2488.pk> <C:\Documents and Settings\Rubytox\Local Settings\A
-pplication Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><E:/P
-rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/Program Files
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Program Files/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><E:/Program Files/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><E:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy10.pfb>
-Output written on IllusionsEtEffetsOptiques.pdf (22 pages, 965557 bytes).
+ <C:\D
+ocuments and Settings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Documents and Settings\Rubytox\Lo
+cal Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
+x1440.pk> <C:\Documents and Settings\Rubytox\Local Settings\Application Data\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Documents and Sett
+ings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\eccc1200.pk> <C:\Documents and Settings\Rubytox\Local Settings\Appl
+ication Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Doc
+uments and Settings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Documents and Settings\Rubytox\Loca
+l Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
+200.pk> <C:\Documents and Settings\Rubytox\Local Settings\Application Data\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Documents and Settin
+gs\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\eccc1440.pk> <C:\Documents and Settings\Rubytox\Local Settings\Applic
+ation Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Docum
+ents and Settings\Rubytox\Local Settings\Application Data\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Documents and Settings\Rubytox\Local 
+Settings\Application Data\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc207
+4.pk><E:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Program Files/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><E:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><E:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y8.pfb>
+Output written on IllusionsEtEffetsOptiques.pdf (24 pages, 985767 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
+ 503 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

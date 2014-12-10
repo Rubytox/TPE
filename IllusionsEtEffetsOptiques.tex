@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
+%\usepackage[options]{sidecap}
 \usepackage[francais]{babel}
 
 \pagestyle{empty}
@@ -66,7 +67,7 @@ la nuit.
     Des structures interviennent dans la protection de l’œil et permettent sont fonctionnement :
     \begin{itemize}
    	\item[$\bullet$] Sourcils : ils permettent de protéger l’œil des gouttes de sueur en provenance du front ainsi que de la lumière,
-	\item[$\bullet$] Paupières : les paupières mobiles clignent par reflexe toutes les 3 à 7 secondes, elles peuvent également cligner automatiquement lorsqu’un corps étranger arrive dans l’œil ou un soufflement d’air.  Elles protègent l’œil de tous les corps étrangers et permettent également de prévenir la dessiccation (déshydratation de l’œil) car ainsi, les sécrétions telles que le mucus, les larmes, l’huile se répandent à la surface du globe oculaire, son hydratation est alors permanente.  
+	\item[$\bullet$] Paupières : les paupières mobiles clignent par reflexe toutes les 3 à 7 secondes, elles peuvent également cligner automatiquement lorsqu’un corps étranger arrive dans l’œil ou un souffle d’air.  Elles protègent l’œil de tous les corps étrangers et permettent également de prévenir la dessiccation (déshydratation de l’œil) car ainsi, les sécrétions telles que le mucus, les larmes, l’huile se répandent à la surface du globe oculaire, son hydratation est alors permanente.  
 	\item[$\bullet$] Conjonctive : elle tapisse le blanc de l’œil ainsi que les paupières produisant un mucus lubrifiant.
 	\item[$\bullet$] Glande lacrymale : elle sécrète des larmes qui sont répandues sur la surface du globe oculaire grâce aux clignements des yeux, et vont ainsi protéger, nettoyer, humecter et lubrifier la surface de l’œil.
 	\end{itemize}	
@@ -95,13 +96,19 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	\item[$\bullet$] L’humeur vitrée est en arrière du cristallin. C’est une substance gélatineuse remplissant l ‘espace compris entre le cristalline et la rétine.
 	\end{itemize}
 	
+	\begin{figure}[h]
+	\begin{center}
 	\includegraphics[scale=0.8]{schema_oeil.jpg}
+	\end{center}
+	\caption{Coupe de l'oeil}
+	\label{Coupe de l'oeil}
+	\end{figure}
 \newpage
 	\section{Fonctionnement de l'oeil}
 		\subsection{Propagation de la lumière}
 		Dans un milieu transparent, homogène et isotrope (c’est-à-dire qui a les mêmes propriétés dans toutes les directions), la lumière se propage en un mouvement rectiligne et uniforme.
 		
-	Dans le cas où le milieu n’est pas homogène, par exemple lors d’une différence de température, la lumière est déviée : c'est le phénomène de réfraction. Lorsque la lumière traverse un milieu transparent, elle subit ce phénomène. C’est le cas par exemple de l’eau ou encore l'air. 
+	Dans le cas où le milieu n’est pas homogène, par exemple lors d’une différence de température, la lumière est déviée : c'est le phénomène de réfraction. Lorsque la lumière change de milieu, nécessairement transparent, elle subit ce phénomène. C’est le cas par exemple de l’eau ou encore l'air. 
 	
 	Ce sont les lois de Snell-Descartes qui définissent les angles de réfraction. Prenons un exemple : un rayon de lumière, appelé rayon incident, se déplace dans un premier milieu transparent, l'air. Ce rayon traverse ensuite un second milieu transparent, l'eau. Le rayon arrive à la surface de l'eau avec un certain angle par rapport à la normale : c'est \textit{l'angle d'incidence}, note $i$. Lorsque le rayon traverse l'eau, il est dévié par rapport à la normale. L'angle ici présent est \textit{l'angle de réfraction}, noté $r$, ou parfois $i_{2}$.
 	
@@ -113,13 +120,23 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	\]	
 	La réfraction d’un rayon lumineux, ainsi que la manière dont il est dévié, est donc plus ou moins forte en fonction du milieu qu’il traverse, ainsi qu’en fonction de l’angle d’incidence.
 	
+	\begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.9]{refraction.jpg}
+	\includegraphics[scale=0.6]{refraction.jpg}	
 	\end{center}	
+	\caption{Schéma de la réfraction}
+	\label{Schéma de la réfraction}	
+	\end{figure}
 	
 	 En plus du phénomène de réfraction, la lumière subit un phénomène de dispersion. Par exemple, si un faisceau de lumière blanche est dirigé vers une surface plane d'un bloc de verre, elle est décomposée lors de sa réfraction : le spectre de la lumière blanche apparaît.
 	 
+	 \begin{figure}[h]
+	 \begin{center}
 	 \includegraphics[scale=0.73]{dispersion.jpg} 
+	 \end{center}
+	 \caption{Schéma de la dispersion}
+	 \label{Schéma de la dispersion}
+	 \end{figure}	 
 	 
 	 La dispersion est à l’origine des arc-en-ciel : la lumière passe à travers des gouttes d’eau, qui dispersent la lumière, et font apparaître le spectre de la lumière blanche. 
 
@@ -131,11 +148,23 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	
 	Lorsqu’un objet est éclairé par une source lumineuse, des rayons de lumière se forment. Lorsque l’on intercale une lentille convergente entre ces rayons, nous constatons qu’ils convergent en un point.
 	
-	\includegraphics[scale=0.4]{lentille_convergente.jpg}
+	\begin{figure}[h]
+	\begin{center}
+	\includegraphics[scale=0.3]{lentille_convergente.jpg}
+	\end{center}
+	\caption{Lentille convergente}
+	\label{Lentille convergente}
+	\end{figure}
 		
 	Si l’on positionne un écran après le foyer image, on constate l’apparition d’une image dessus : c’est l’image formée à partir de l’objet. En fonction de l’endroit où se situe l’objet par rapport à la lentille, l’image sera plus ou moins grande, et plus ou moins éloignée de la lentille. Aussi, elle est toujours renversée. 
 	
-	\includegraphics[scale=1]{formation_image.png}
+	\begin{figure}[h]
+	\begin{center}
+	\includegraphics[scale=0.9]{formation_image.png}
+	\end{center}
+	\caption{Construction d'un objet}
+	\label{Construction d'un objet}
+	\end{figure}
 		
 		La formation d’une image suit trois règles :
 		\begin{itemize}
@@ -246,6 +275,50 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 \chapter{Autres exemples d'illusion}
 	\section{Différence entre illusion et effet d'optique}
 	\section{Mirages}
+	En été, lorsqu’on regarde au loin une route, on a l’impression de voir des flaques d’eau au sol. Celles-ci, disparaissent quand on se rapproche, c’est un mirage. 
+	
+	Le mot « mirage » vient du latin \textit{miror}, \textit{mirari} qui signifie s’étonner, voir <<avec étonnement>>. C’est tout comme notre propre illusion que nous vous avons présenté un phénomène optique. Les mirages sont dus à la déviation des faisceaux lumineux par des superpositions de couches d’air de températures différentes.  
+A cause de la déviation de ces rayons, on ne voit pas l’objet à son réel emplacement, l’image perçue est alors souvent déformée. 
+	
+	Le mirage n’est pas une illusion d’optique, qui est une déformation d’une image à cause d’une interprétation erronée du cerveau, on peut le photographier, ce n’est donc pas une hallucination, on parlera simplement de phénomène optique. 
+	
+	On regroupe les mirages en trois catégories, les mirages supérieurs, les mirages inférieurs et le \textit{Fata Morgana}, les plus complexes, composés de plusieurs images superposées les unes aux autres. 
+
+\paragraph{Principe d'un mirage :}
+	L’indice de réfaction de l’air peut évoluer grâce à la température, la pression atmosphérique ou encore l’humidité ou la composition de l’air. 
+
+	Les couches d’air froid sont par exemples plus denses que les couches d’air chaud. 
+L’indice de réfaction des couches d’air froid est alors plus fort, ce dernier évoluant en fonction de la pression et de la température. 
+
+	Une superposition de couches d’air de température de plus en plus importantes ou à l’inverse de couches de plus en plus froides crée un gradient de température et de pression et donc d’indice pour l’air. 
+
+	Pour un état normal, dans l’atmosphère, une colonne d’air a un gradient de température d’environ $-1\times 10^{-2} ~^{o}C.m^{-1}$, provoquant dès cette température faible des phénomènes de « réfraction terrestre » permettant dès lors la déformation ou la vision de certains objets non visibles normalement, tels les bateaux à l’horizon. 
+	
+	Pour que l’on parle véritablement de mirage, le gradient doit avoir une température d’au moins $2$, voir $4 ~^{o}C.m^{-1}$. 
+
+
+\paragraph{Mirage inférieur :}
+	Ce mirage également appelé « mirage chaud » est causé par le réchauffement des couches basses de l’air ; on l’aperçoit souvent l’été au niveau des routes chauffées par le soleil ou encore dans les zones désertiques. 
+Dans ce cas la, l’air proche du sol peut avoir des températures bien supérieures à celles des couches les plus élevées (parfois plus de $10 ~^{o}C$ de différence).
+
+	Les rayons lumineux vont ainsi être très courbés au niveau de cette partie près du sol. Reposant sur un échauffement de l’air au niveau du sol assez important, les images perçues seront déformées à cause de turbulences ; les routes ne donnent pas une réflexion parfaite du ciel mais une image approximative, telles des flaques d’eau. 
+
+\paragraph{Mirage supérieur :}
+	Aussi appelé « mirage froid » ce mirage apparaît lorsque l’air à la surface du sol est plus froid que celui en hauteur.  A certains endroits où la surface du sol est extrêmement froide telle que les banquises, les sols gelés ou encore les mers froides, l’air est refroidi au niveau du sol, car par phénomène de convection, l’air chaud monte en altitude.Apparaît alors des couches d’air plus froid appelées couches d’inversion.  L’image observée au niveau du sol ou près de celui-ci sera ainsi au dessus de l’objet réel, elle peut être déformée ou encore inversée.
+	
+	Dans ce type de mirage, la trajectoire des rayons lumineux issus de l’objet va être ascendante et concave, cela apparaît lorsque les rayons suivent la courbe de la Terre, c’est ainsi qu’un objet situé sous l’horizon peut être perçu au dessus. 
+
+\paragraph{Fata Morgana et FataBromosa :}
+	Dans certaines situations, il arrive qu’un mirage inférieur et un mirage supérieur se combinent ; il apparaît ainsi à l’observateur une image irréelle au paysage lointain. 
+	Il s’agit d’un mirage peu stable donnant plusieurs images différentes, déformés et superposées de l’objet de ce dernier. 
+	Il est particulièrement observable dans le détroit de Messine, situé dans la mer Méditerranée séparant la péninsule italienne de l’île de Sicile. 
+	
+	La Fata Morgana est due à une superposition de couches d’inversion et de couches d’air chaud avec des gradients plus ou moins forts. Ainsi le rivage lointain est élevé au-dessus de l’horizon par un phénomène de mirage supérieur, dû aux couches d’inversion. D’autres parties sont élargies et déformées a cause d’une partie d’air plus chaud, une partie des rayons est ainsi ramenée vers le sol.  Le paysage à l’horizon se trouve alors complètement déformé, des tours ou immeubles sont allongés par les couches d’inversion, des plateaux sont élargis et superposés grâce aux couches d’air plus chaud. 
+	
+	La FataBromosa, aussi appelée \textit{Brumée de fée} est provoquée de la même façon, mais l’image crée se trouve plutôt aplatie car les rayons réfractés ne sont que dans certaines zones uniquement, ainsi des parties sombres ou d’autres très lumineuses sont perçues,  on peut alors observer un contraste de brouillard brillant à l’horizon. 
+
+Ces deux effets peuvent eux-mêmes être combinés, il est courant que des FataBromosa soient incluses dans une Fata Morgana. 
+
 	\section{Stéréogrammes}
 	Les stéréogrammes sont des images en 3 dimensions où sont dissimulées des formes. Ils apparaissent sous forme d’une texture abstraite, mais avec un agencement particulier, qui permet de faire apparaître la forme recherchée.
 	

@@ -18,4 +18,8 @@
 \contentsline {chapter}{\numberline {3}Autres exemples d'illusion}{21}
 \contentsline {section}{\numberline {3.1}Diff\IeC {\'e}rence entre illusion et effet d'optique}{21}
 \contentsline {section}{\numberline {3.2}Mirages}{21}
-\contentsline {section}{\numberline {3.3}St\IeC {\'e}r\IeC {\'e}ogrammes}{21}
+\contentsline {paragraph}{Principe d'un mirage :}{21}
+\contentsline {paragraph}{Mirage inf\IeC {\'e}rieur :}{22}
+\contentsline {paragraph}{Mirage sup\IeC {\'e}rieur :}{22}
+\contentsline {paragraph}{Fata Morgana et FataBromosa :}{22}
+\contentsline {section}{\numberline {3.3}St\IeC {\'e}r\IeC {\'e}ogrammes}{23}
