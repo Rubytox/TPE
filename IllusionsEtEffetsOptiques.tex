@@ -4,7 +4,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
-%\usepackage[options]{sidecap}
+\usepackage{sidecap}
+\usepackage{ifthen}
+\usepackage{geometry}
 \usepackage[francais]{babel}
 
 \pagestyle{empty}
@@ -12,6 +14,8 @@
 \title{\bsc{Thème : La Mesure} \\ \Huge{Illusions et effets d'optique}}
 \author{Valentine \bsc{Sénégas}, Paul \bsc{Souchon} et Christophe \bsc{Néraud}}
 \date{Années 2014 -- 2015}
+
+\geometry{hmargin=1.5cm}
 
 \begin{document}
 \renewcommand{\chaptername}{Partie}
@@ -131,13 +135,10 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	\]	
 	La réfraction d’un rayon lumineux, ainsi que la manière dont il est dévié, est donc plus ou moins forte en fonction du milieu qu’il traverse, ainsi qu’en fonction de l’angle d’incidence.
 	
-	\begin{figure}[h]
-	\begin{center}
-	\includegraphics[scale=0.6]{refraction.jpg}	
-	\end{center}	
+	\begin{SCfigure}[][h]
+	\includegraphics[scale=0.6]{refraction.jpg}
 	\caption{Schéma de la réfraction}
-	\label{Schéma de la réfraction}	
-	\end{figure}
+	\end{SCfigure}	
 	
 	 En plus du phénomène de réfraction, la lumière subit un phénomène de dispersion. Par exemple, si un faisceau de lumière blanche est dirigé vers une surface plane d'un bloc de verre, elle est décomposée lors de sa réfraction : le spectre de la lumière blanche apparaît.
 	 
@@ -151,7 +152,6 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 	 
 	 La dispersion est à l’origine des arc-en-ciel : la lumière passe à travers des gouttes d’eau, qui dispersent la lumière, et font apparaître le spectre de la lumière blanche. 
 
-\newpage
 		\subsection{Formation d'une image}
 		L’œil est un organe, disposant d’une rétine qui tapisse son fond, dont le but est de former une image à partir de rayons de lumière puis de l’envoyer au cerveau afin qu’il la traite. En plus d’être capable de détecter la lumière, l’œil doit aussi pouvoir détecter sa direction. 
 		
@@ -204,24 +204,52 @@ Avant d’atteindre le fond de l’œil, les rayons lumineux doivent traverser d
 
 	L’œil est un organe pouvant posséder des défauts.
 
+\newpage
 	\subsubsection{La myopie}
-	L’œil est trop convergent, et les images se forment avant la rétine. Le positionnement d’une lentille divergente devant l’œil peut corriger ce problème.
+	L’œil est trop convergent, et les images se forment avant la rétine. Le positionnement d’une lentille divergente devant l’œil peut corriger ce problème.	Elle est le plus souvent due à un œil trop long. Ainsi lorsqu’on fixe un objet éloigné, son image se forme donc en avant de la rétine, la vision de loin est alors floue. Cependant la vision de pré est nette. Ce défaut de l’œil permet ainsi de lire sans lunettes, mais plus elle est développée, plus le texte doit être rapproché. 
+	
+	\begin{figure}[h]
+	\begin{center}
 	\includegraphics{myopie.jpg}
+	\end{center}
+	\caption{Myopie et sa correction}
+	\label{Myopie et sa correction}
+	\end{figure}
 	
 	\subsubsection{L'hypermétropie}
-	C’est le contraire de la myopie, l’œil n’est pas assez convergent, et donc les images se forment après la rétine. Il faut cette fois-ci placer une lentille convergente devant l’œil.
+	C’est le contraire de la myopie, l’œil n’est pas assez convergent, et donc les images se forment après la rétine. Il faut cette fois-ci placer une lentille convergente devant l’œil.	C’est l’inverse de la myopie, l’œil dans ce cas est généralement trop court, l’image d’un objet éloigné se forme alors en arrière de la rétine. La personne observera ainsi des difficultés à lire de près cependant elle voit relativement bien de loin et n’est alors pas gênée dans ce cas la. 
 	
+	\begin{figure}[h]
+	\begin{center}
 	\includegraphics[scale=0.5]{hypermetropie.jpg}
+	\end{center}
+	\caption{Hypermétropie et sa correction}
+	\label{Hypermétropie et sa correction}
+	\end{figure}
 	
 	\subsubsection{La presbytie}
-	C’est un défaut de l’œil qui apparaît en général chez les personnes âgées. En effet, le cristallin est « fatigué », il ne peut plus accommoder. De ce fait, les images de près se forment derrière la rétine. Il faut cette fois également porter des lunettes convergentes.
+	C’est un défaut de l’œil qui apparaît en général chez les personnes âgées. En effet, le cristallin est « fatigué », il ne peut plus accommoder. De ce fait, les images de près se forment derrière la rétine. Il faut cette fois également porter des lunettes convergentes. C’est un phénomène habituel de vieillissement de l’œil. C’est la diminution naturelle de la capacité d’accommodation du cristallin notamment lors de la lecture. Pour pouvoir voir de près, le cristallin doit se bomber rapidement afin de restituer une image nette au cerveau qu’elle que soit la distance qui le sépare de l’objet observé, c’est l’accommodation. Elle permet la mise au point de l’œil comme le ferait un appareil photo avec l’autofocus. Le cristallin vieillit et perd de son élasticité en fonction de l’âge, l’accommodation diminue elle aussi, elle est alors importante chez l’enfant est va diminuer plus la personne vieillit.   
 	
+	\begin{figure}[h]
+	\begin{center}
 	\includegraphics[scale=0.7]{presbytie.png}
+	\end{center}
+	\caption{Presbytie et sa correction}
+	\label{Presbytie et sa correction}
+	\end{figure}
 	
 	\subsubsection{L'astigmatisme}
-	C’est un défaut de la composition de l’humeur aqueuse et/ou de l’humeur vitrée. Les rayons qui les traversent ne forment plus un point lumineux sur la rétine, mais une tache de dimension et de formes variées.
+	C’est un défaut de la composition de l’humeur aqueuse et/ou de l’humeur vitrée. Les rayons qui les traversent ne forment plus un point lumineux sur la rétine, mais une tache de dimension et de formes variées. C’est une anomalie de courbure de la cornée qui est irrégulière, elle est ovale au lieu d’être ronde. Les rayons lumineux se focalisent alors en des points différents, à la fois en arrière et en avant de la rétine. L’image perçue est alors déformée, par exemple l’œil astigmate ne verra nettes que les lignes horizontales ou verticales, la vision est brouillée, floue et imprécise. Il y a des confusions de lettres proches comme le M le N et le H, le 8 et le 0. L’image d’un point n’est pas un point mais une droite. 
 	
+	La vision n’est jamais excellente sans être vraiment mauvaise, que ce soit de près ou de loin. 
+	
+	\begin{figure}[h]
+	\begin{center}	
 	\includegraphics[scale=0.5]{astigmatisme3.jpg}
+	\end{center}
+	\caption{Astigmatisme et sa correction}
+	\label{Astigmatisme et sa correction}
+	\end{figure}
 	
 	\newpage
 	
@@ -321,7 +349,14 @@ Les substances hallucinogènes vont provoquer chez l’usager une perception inh
 
 \chapter{Comment le cerveau peut-il être trompé ?}
 	\section{Présentation de notre illusion}
+	L'expérience que nous allons vous présenter aujourd'hui en avant première est apparemment bluffante. Action vidéo.
+	Avez vous vu le changement de sens des flèches?? 
+	
+	Qu'en pensez vous?? pour vous est-ce une hallucination , un phénomène optique, une illusion d'optique effet d'optique mirage.
+Avouons-le, ce tour de magie n'en est pas un, ce n'est pas non plus une véritable illusion optique. 
+Même si cette expérience est impressionnante, elle est par ailleurs scientifiquement explicable. En effet ce tour de magie est  un effet optique .  C'est un événement observable, due à l'interaction entre la lumiere et la matiere le plus souvent soumise a un facteur environnementale ici en l'occurrence le verre et l'eau.
 	\section{Explication de l'illusion : comment l'a-t-on construite et pourquoi est-ce une illusion ?}
+	
 \chapter{Autres exemples d'illusion}
 	\section{Différence entre illusion et effet d'optique}
 	\section{Mirages}
