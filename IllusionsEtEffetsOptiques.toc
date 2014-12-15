@@ -14,13 +14,15 @@
 \contentsline {subsection}{\numberline {1.3.1}Transmission de l'image}{17}
 \contentsline {subsection}{\numberline {1.3.2}Interpr\IeC {\'e}tation de l'image}{19}
 \contentsline {chapter}{\numberline {2}Comment le cerveau peut-il \IeC {\^e}tre tromp\IeC {\'e} ?}{20}
-\contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation de notre illusion}{20}
-\contentsline {section}{\numberline {2.2}Explication de l'illusion : comment l'a-t-on construite et pourquoi est-ce une illusion ?}{20}
-\contentsline {chapter}{\numberline {3}Autres exemples d'illusion}{21}
-\contentsline {section}{\numberline {3.1}Diff\IeC {\'e}rence entre illusion et effet d'optique}{21}
-\contentsline {section}{\numberline {3.2}Mirages}{21}
-\contentsline {paragraph}{Principe d'un mirage :}{21}
-\contentsline {paragraph}{Mirage inf\IeC {\'e}rieur :}{22}
-\contentsline {paragraph}{Mirage sup\IeC {\'e}rieur :}{22}
-\contentsline {paragraph}{Fata Morgana et FataBromosa :}{22}
-\contentsline {section}{\numberline {3.3}St\IeC {\'e}r\IeC {\'e}ogrammes}{23}
+\contentsline {section}{\numberline {2.1}Pr\IeC {\'e}sentation de notre exp\IeC {\'e}rience}{20}
+\contentsline {section}{\numberline {2.2}Explication de l'exp\IeC {\'e}rience : comment l'a-t-on construite et pourquoi est-ce un effet d'optique ?}{20}
+\contentsline {subsection}{\numberline {2.2.1}Au pr\IeC {\'e}alable}{20}
+\contentsline {subsection}{\numberline {2.2.2}Explications}{23}
+\contentsline {chapter}{\numberline {3}Autres exemples d'illusion}{24}
+\contentsline {section}{\numberline {3.1}Diff\IeC {\'e}rence entre illusion et effet d'optique}{24}
+\contentsline {section}{\numberline {3.2}Mirages}{24}
+\contentsline {paragraph}{Principe d'un mirage :}{24}
+\contentsline {paragraph}{Mirage inf\IeC {\'e}rieur :}{25}
+\contentsline {paragraph}{Mirage sup\IeC {\'e}rieur :}{25}
+\contentsline {paragraph}{Fata Morgana et FataBromosa :}{25}
+\contentsline {section}{\numberline {3.3}St\IeC {\'e}r\IeC {\'e}ogrammes}{26}

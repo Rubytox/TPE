@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.2)  12 DEC 2014 15:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.2)  14 DEC 2014 23:39
 entering extended mode
 **IllusionsEtEffetsOptiques.tex
 (E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.tex
@@ -371,7 +371,12 @@ Package babel Info: Making ? an active character on input line 123.
 *
 ("E:\Program Files\MiKTeX\tex\generic\babel\frenchb.cfg")))
 ("E:\Program Files\MiKTeX\tex\latex\carlisle\scalefnt.sty")
-(E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.aux)
+(E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.aux
+
+LaTeX Warning: Label `R\IeC {\'e}fraction air-verre-air (verre droit)' multiply
+ defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -603,34 +608,53 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Partie 2.
 [20
 
-]
-Partie 3.
-[21
+] <refraction-theorie1.png, id=101, 989.19562pt x 547.2947pt>
+File: refraction-theorie1.png Graphic file (type png)
 
-] [22]
+<use refraction-theorie1.png>
+Package pdftex.def Info: refraction-theorie1.png used on input line 372.
+(pdftex.def)             Requested size: 494.5966pt x 273.64667pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
  Make it at least 14.61858pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23] [24
+[21 <E:/Documents/GIT.GITHUB/TPE/refraction-theorie1.png>]
+<refraction-theorie2.png, id=107, 441.14813pt x 341.77687pt>
+File: refraction-theorie2.png Graphic file (type png)
+
+<use refraction-theorie2.png>
+Package pdftex.def Info: refraction-theorie2.png used on input line 384.
+(pdftex.def)             Requested size: 220.57352pt x 170.88802pt.
+ [22 <E:/Documents/GIT.GITHUB/TPE/refraction-theorie2.png>] <refraction-experie
+nce.png, id=112, 712.16063pt x 557.08125pt>
+File: refraction-experience.png Graphic file (type png)
+
+<use refraction-experience.png>
+Package pdftex.def Info: refraction-experience.png used on input line 399.
+(pdftex.def)             Requested size: 498.50905pt x 389.95422pt.
+ [23 <E:/Documents/GIT.GITHUB/TPE/refraction-experience.png>]
+Partie 3.
+[24
+
+] [25] [26] [27
 
 ] (E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.lof)
 \tf@lof=\write4
- [25
+[28
 
-]
-(E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.aux)
+] (E:\Documents\GIT.GITHUB\TPE\IllusionsEtEffetsOptiques.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3179 strings out of 493921
- 41949 string characters out of 3148826
- 106533 words of memory out of 3000000
- 6411 multiletter control sequences out of 15000+200000
+ 3196 strings out of 493921
+ 42431 string characters out of 3148826
+ 106630 words of memory out of 3000000
+ 6425 multiletter control sequences out of 15000+200000
  17768 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  30i,10n,43p,1013b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -659,9 +683,9 @@ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Program Files/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Program Files/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb><E:/Program Files/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on IllusionsEtEffetsOptiques.pdf (26 pages, 992296 bytes).
+Output written on IllusionsEtEffetsOptiques.pdf (29 pages, 1084852 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
+ 543 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
